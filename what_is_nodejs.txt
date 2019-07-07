@@ -1,0 +1,6 @@
+1. In your own words highlight the differences in functionality and purposes Client-Side and Server-Side code serves in a full-stack web application.
+A: Client-Side typically uses a browser as its enviroment to run scripts. The source code arrives at the users computer from a web server and is rendered directly into the browser. Server-Side runs scripts using a web server as its enviroment. The web server directly generates the HTML pages to fullfill the user request. Server-Side is mostly used for interactive websites that interface to databases or other data stores on the server.
+
+2. What explains Nodes' rise in popularity and use? What does "Isomorphic JavaScript programming" mean? Provide some real-world examples not listed in this checkpoint of companies using Node.js.
+A: The likely explaination is that Node.js allows for web application development to unify under JavaScript rather than having a different language for serverside code. Isomorphic JavaScript, also known as Universal JavaScript, describes JavaScript applications which run both on the client and the server. A few companies that use Node.js are the website Medium, Trello, and Groupon.
+
