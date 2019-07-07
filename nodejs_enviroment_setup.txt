@@ -1,0 +1,27 @@
+1. What is npm and what does it do?
+
+A: npm is the package manager for the Node.JS platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
+
+2. What kind of information does package.json hold?
+
+A: It holds the metadata of a Node.JS project. It is considered the heart of the Node.Js system. 
+
+3. Google another Node package. Using the demo directory run npm install <theNameOfThePackage> --save. Check the contents of your package.json file to make sure that the dependencies list the name of the Node package.
+
+A:The package I chose to download was underscore. It is declared here under dependencies. 
+
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "underscore": "^1.9.1"
+  }
+}
